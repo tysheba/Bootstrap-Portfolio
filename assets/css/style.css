@@ -99,9 +99,6 @@ footer {
 }
 .container img {
     margin-right: 20px;
-    margin-top: 20px;
-    width: 300px;
-    height: auto;
     display: inline;
 }
 /* Specific styling for About page */
@@ -139,18 +136,16 @@ textarea {
 
 .portfolio-img {
     position: relative;
-    width: 400px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    float: left;
+    text-align: center;
+    color: #ffffff;
 }
 .img-text {
     position: absolute;
-    bottom: 35px;
-    width: 400px;
+    bottom: 15px;
     background: #4aaaa5;
     text-align: center;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     color: #ffffff;
+    max-width: 400px;
     
 }
